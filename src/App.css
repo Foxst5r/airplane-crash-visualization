@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Poppins", sans-serif;
+}
+.marks .land {
+  fill: #dad2d2;
+}
+.marks .sphere {
+  fill: #c4cdd2;
+}
+.marks .interiors {
+  fill: none;
+  stroke: gray;
+}
+.marks .graticules {
+  fill: none;
+  stroke: #839da2;
+}
+circle {
+  fill: #137b80;
+  opacity: 0.4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tick line {
+  stroke: #c0c0bb;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tick text {
+  fill: #635f5d;
+  font-size: 0.5em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.marks rect {
+  fill: #137b80;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.axis-label {
+  font-size: 0.5em;
+  fill: #635f5d;
 }
